@@ -45,3 +45,17 @@ console.log(aluno);
 - [x] Briefing
 - [x] Rascunhos
 - [ ] Desing
+
+
+## Tabelas
+
+|Cliente  | Idade | Cidade       |
+|-------- |-------|-------       |
+|Veronica |   28  | São Paulo    |
+|João     |   29  |Rio de Janeiro|
+|Maria    |  30   |Salvador      |
+
+## Emoji
+:heart:
+:star:
+:bat:
