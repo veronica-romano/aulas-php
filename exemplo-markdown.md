@@ -44,4 +44,4 @@ console.log(aluno);
 ### Listas de tarefas
 - [x] Briefing
 - [x] Rascunhos
-- [] Desing
+- [ ] Desing
