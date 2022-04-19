@@ -14,6 +14,7 @@
         echo "Amanhã tem Corinthians Vs Palmeiras";
         echo "<h2> Gerando <span class='destaque'> HTML </span> através do php. </h2>";
         echo "<h2> Gerando <span class=\"destaque\"> HTML </span> através do php. </h2>";
+        echo "Oi GitHub :3"
     ?>
 </body>
 </html>
