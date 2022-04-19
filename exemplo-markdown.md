@@ -37,3 +37,11 @@ console.log(aluno);
 
 
 ## Imagens
+![logotipo PHP](php-logo.png)
+
+## Caixas de seleção
+
+### Listas de tarefas
+- [x] Briefing
+- [x] Rascunhos
+- [] Desing
