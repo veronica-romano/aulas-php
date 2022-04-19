@@ -1,0 +1,39 @@
+# Conhecendo Markdown
+
+## Textos
+Usamos a linguagem markdown para estruturar textos rapidamente.
+
+É uma linguagem muito usada no GitHub
+## Links
+[Site Oficial PHP](http://php.net)
+
+## Listas
+### Não-ordenada
+- Front-End
+   - HTML
+   - CSS
+   - Javascript
+   - Wordpress
+- Back-End
+   - PHP
+   - Laravel
+   - DOM
+
+- FullStack
+- DevOps
+
+### Ordenada
+1. UX/UI
+2. Design
+3. Front-End
+4. Back-End
+
+## Linguagens
+``` Javascript
+`console.log ("Olá")`
+let aluno = "Veronica";
+console.log(aluno);
+```
+
+
+## Imagens
