@@ -1,0 +1,35 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: lightgrey;
+}
+form{
+    text-align: center;
+}
+main{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+input, textarea, button{
+    border-radius: 5px;
+    vertical-align: middle;
+}
+div label{
+    font-weight: bold;
+}
+
+li{
+    list-style-type: none;
+}
+ul{
+    text-align: justify;
+}
+
+.warning{
+    background-color: tomato;
+    font-weight: bolder;
+}

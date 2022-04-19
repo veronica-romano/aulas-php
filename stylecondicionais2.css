@@ -1,0 +1,15 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ok, .repor{
+    width: 30%;
+    font-weight: bold;
+}
+.ok{
+    background-color: rgb(80, 211, 80);
+}
+.repor{
+    background-color: tomato;
+}

@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(236, 236, 236);
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+}
+
+.rep, .reprovado{
+    background-color: tomato;
+}
+
+.ap, .aprovado{
+    background-color: lightgreen;
+}
+p,h1{
+    text-align: center;
+}
+section{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+}
+

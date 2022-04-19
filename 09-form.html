@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Formulários com PHP</title>
+</head>
+<body>
+    <main>
+    <h1>Formulários usando PHP</h1>
+    <!--<form action="processa-get.php" method="get"></form>-->
+    <form action="processa-post.php" method="post">
+        <p>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome">
+        </p>
+        <p>
+            <label for="email">E-mail: </label>
+            <input type="email" name="email" id="email">
+        </p>
+
+        <p>
+            <label for="idade">Idade: </label>
+            <input type="number" name="idade" id="idade" min="18" max="100">
+        </p>
+        <div>
+            <p>Interesses:</p>
+            <input type="checkbox" value="html" name="interesses[]" id="html">
+            <label for="html">HTML</label>
+            <input type="checkbox" value="css" name="interesses[]" id="css">
+            <label for="css">CSS</label>
+            <input type="checkbox" value="javascript" name="interesses[]" id="Javascript">
+            <label for="Javascript">Javascript</label>
+        </div>
+        <div>
+            <p>Deseja receber informações?</p>
+            <input type="radio" value="sim"  name="informativos" id="sim">
+            <label for="sim">Sim</label>
+            <input type="radio" value="nao" name="informativos" id="nao">
+            <label for="nao">Não</label>
+        </div>
+        <p>
+            <label for="mensagem">Mensagem: </label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="6"></textarea>
+        </p>
+
+        <button type="submit" name="enviar">Enviar Dados</button>
+    </form>
+</main>
+</body>
+</html>
+
