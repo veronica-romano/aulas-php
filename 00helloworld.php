@@ -1,7 +1,6 @@
 <?php
     echo ("Hello World!")
-
-    function getGrade($a, $b, $c) {
+    function getGrade($a, $b, $c){
         // your code here
         $score = ($a + $b + $c) / 3;
         if ($score >= 90 && $score <= 100) {
@@ -10,10 +9,12 @@
               $letterGrade = "B";
             } elseif ($score >= 70 && $score < 80) {
                 $letterGrade = "C";
-            } elseif ($score >= 60 && $score < 70) {
+                } elseif ($score >= 60 && $score < 70) {
                   $letterGrade = "D";
-                } else {
-                    $letterGrade = "F";
-                };
+                    } else {
+                        $letterGrade = "F";
+                    };
+        return getGrade(50, 90, 100);
+        echo $letterGrade;
     }
 ?>
